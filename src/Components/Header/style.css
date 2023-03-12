@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.nav-top {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center
+}
+
+.olx-logo img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.link-top a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 14px;
+}
+
+
+.action-nav {
+    padding: 15px 0 5px 0;
+    z-index: 1;
+}
+
+.action-nav img {
+    width: 70px;
+    /* padding: 10px 0 5px; */
+}
+
+.action-nav .flex {
+    justify-content: space-between;
+}
+
+.btn-logout button {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn-sell button {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 100%;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/olx-react-e935c.appspot.com/o/images%2Fsell-btn-bg.svg?alt=media&token=0a6b7ed7-999a-4680-a04f-662eac59f824);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+}
+
+.category-nav {
+    padding: 10px 0;
+    box-shadow: 0px 1px 17px 0px #e4e4e4;
+    z-index: 0;
+    position: relative;
+}
+
+.all-category button {
+    color: rgb(95, 95, 95);
+    border-color:  rgb(95, 95, 95);
+    margin-right: 10px;
+}
+
+.main-category a {
+    color: rgb(95, 95, 95);
+    text-transform: capitalize;
+}

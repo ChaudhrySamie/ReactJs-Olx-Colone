@@ -1,0 +1,41 @@
+.product-details {
+    margin: 100px 0;
+}
+
+.adDetails {
+    width: 75%;
+}
+.adFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.adImage {
+    height: 550px;
+    overflow: none;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 11px;
+}
+
+.adImage img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.postDetail {
+    border-radius: 11px;
+    margin: 20px 0;
+    border: 2px solid rgb(119, 119, 119);
+    padding: 25px 20px;
+}
+
+.adprice {
+    width: 20%;
+    border-radius: 11px;
+    border: 2px solid rgb(119, 119, 119);
+    padding: 25px 20px;
+}
+h1{
+    color:rgb(0, 110, 255);
+}
