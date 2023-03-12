@@ -1,9 +1,4 @@
 import './App.css';
-import Signup from './Screen/Signup';
-import Login from './Screen/Login';
-import { useState, useEffect } from 'react';
-import Dashboard from './Screen/Dashboard';
-
 
 import Router from './Config/Router';
 

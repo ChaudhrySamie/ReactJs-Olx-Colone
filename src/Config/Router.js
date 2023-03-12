@@ -1,12 +1,12 @@
 import React from "react"
 import { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
-import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./Firebase"
 
 import Login from "../Screen/Login";
-import Signup from "../Screen/Signup";
+import Signup from "../Screen/SignUp";
 import Dashboard from "../Screen/Dashboard";
 import CreateAd from "../Screen/CreateAd"
 import ProductDetails from "../Screen/ProductDetails";
@@ -15,18 +15,11 @@ import MyProfile from "../Screen/MyProfile";
 
 function Router() {
     const [user, setUser] = useState()
-    const [screen, setScreen] = useState(false)
-
-    //Screen Change function
-    const changeScreen = (change) => {
-        setScreen(!screen)
-    }
-
+   
     useEffect(() => {
         return (
             onAuthStateChanged(auth, (user) => {
                 if (user) {
-                    const uid = user.uid;
                     setUser(user)
                 } else {
                     setUser()

@@ -43,7 +43,7 @@ function Signup() {
 
             <div className="login">
                 <div className="wraper">
-                    <div><img src="https://firebasestorage.googleapis.com/v0/b/olx-react-e935c.appspot.com/o/images%2Folx-logo-dark.png?alt=media&token=07d6c0ae-5bb0-45f7-815c-5bed335cdf37" /></div>
+                    <div><img src="https://firebasestorage.googleapis.com/v0/b/olx-react-e935c.appspot.com/o/images%2Folx-logo-dark.png?alt=media&token=07d6c0ae-5bb0-45f7-815c-5bed335cdf37" alt="This is an img"/></div>
                     <div className="login-welcome">
                         <p>The trusted community of <br />buyers and sellers.</p>
                     </div>
@@ -112,7 +112,7 @@ function Signup() {
                     </div>
                     <div className="signup-text">
                         <p>Already have an account?
-                            <a href="" onClick={() => navigate("/login")}>Login</a>
+                            <p className="signup-text-p" onClick={() => navigate("/login")}>Go To Login Page</p>
                         </p>
                     </div>
                 </div>
